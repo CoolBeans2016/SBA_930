@@ -1,0 +1,1286 @@
+{
+  "created_at_utc": "2026-10-12T17:46:56.827583+00:00",
+  "data_sources": [
+    "FRED series SP500, FEDFUNDS, and CPIAUCSL",
+    "FRED series DCOILWTICO"
+  ],
+  "policy_context": "No specific policy text supplied. Identify policy details only if they are within your knowledge; state the relevant date and disclose uncertainty rather than assuming events.",
+  "prompt_history_months": 12,
+  "max_completion_tokens_per_request": 700,
+  "datasets": {
+    "hypothetical_tech_support_company": {
+      "synthetic": true,
+      "source_note": "Deterministic instructional sample data; not actual company financial or operating results.",
+      "observations": [
+        {
+          "month": "2023-09-01",
+          "revenue_usd": 138102.89,
+          "support_tickets": 1726,
+          "labor_cost_usd": 77614.36,
+          "cloud_cost_usd": 11800,
+          "other_operating_cost_usd": 21500,
+          "operating_margin_pct": 19.69,
+          "sla_met_pct": 92.15,
+          "customer_churn_pct": 3.93,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2023-10-01",
+          "revenue_usd": 139600.0,
+          "support_tickets": 1739,
+          "labor_cost_usd": 78450.0,
+          "cloud_cost_usd": 12030,
+          "other_operating_cost_usd": 21780,
+          "operating_margin_pct": 19.58,
+          "sla_met_pct": 92.22,
+          "customer_churn_pct": 3.9,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2023-11-01",
+          "revenue_usd": 142302.89,
+          "support_tickets": 1774,
+          "labor_cost_usd": 79714.36,
+          "cloud_cost_usd": 12260,
+          "other_operating_cost_usd": 22060,
+          "operating_margin_pct": 19.87,
+          "sla_met_pct": 92.39,
+          "customer_churn_pct": 3.84,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2023-12-01",
+          "revenue_usd": 146050.0,
+          "support_tickets": 1830,
+          "labor_cost_usd": 81350.0,
+          "cloud_cost_usd": 12490,
+          "other_operating_cost_usd": 22340,
+          "operating_margin_pct": 20.45,
+          "sla_met_pct": 92.66,
+          "customer_churn_pct": 3.74,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2024-01-01",
+          "revenue_usd": 150400.0,
+          "support_tickets": 1896,
+          "labor_cost_usd": 83200.0,
+          "cloud_cost_usd": 12720,
+          "other_operating_cost_usd": 22620,
+          "operating_margin_pct": 21.18,
+          "sla_met_pct": 92.98,
+          "customer_churn_pct": 3.62,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2024-02-01",
+          "revenue_usd": 154750.0,
+          "support_tickets": 1962,
+          "labor_cost_usd": 85050.0,
+          "cloud_cost_usd": 12950,
+          "other_operating_cost_usd": 22900,
+          "operating_margin_pct": 21.87,
+          "sla_met_pct": 93.3,
+          "customer_churn_pct": 3.5,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2024-03-01",
+          "revenue_usd": 158497.11,
+          "support_tickets": 2018,
+          "labor_cost_usd": 86685.64,
+          "cloud_cost_usd": 13180,
+          "other_operating_cost_usd": 23180,
+          "operating_margin_pct": 22.37,
+          "sla_met_pct": 93.57,
+          "customer_churn_pct": 3.4,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2024-04-01",
+          "revenue_usd": 161200.0,
+          "support_tickets": 2053,
+          "labor_cost_usd": 87950.0,
+          "cloud_cost_usd": 13410,
+          "other_operating_cost_usd": 23460,
+          "operating_margin_pct": 22.57,
+          "sla_met_pct": 93.74,
+          "customer_churn_pct": 3.33,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2024-05-01",
+          "revenue_usd": 162697.11,
+          "support_tickets": 2066,
+          "labor_cost_usd": 88785.64,
+          "cloud_cost_usd": 13640,
+          "other_operating_cost_usd": 23740,
+          "operating_margin_pct": 22.45,
+          "sla_met_pct": 93.81,
+          "customer_churn_pct": 3.31,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2024-06-01",
+          "revenue_usd": 163150.0,
+          "support_tickets": 2058,
+          "labor_cost_usd": 89250.0,
+          "cloud_cost_usd": 13870,
+          "other_operating_cost_usd": 24020,
+          "operating_margin_pct": 22.07,
+          "sla_met_pct": 93.78,
+          "customer_churn_pct": 3.32,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2024-07-01",
+          "revenue_usd": 163000.0,
+          "support_tickets": 2040,
+          "labor_cost_usd": 89500.0,
+          "cloud_cost_usd": 14100,
+          "other_operating_cost_usd": 24300,
+          "operating_margin_pct": 21.53,
+          "sla_met_pct": 93.7,
+          "customer_churn_pct": 3.35,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2024-08-01",
+          "revenue_usd": 162850.0,
+          "support_tickets": 2022,
+          "labor_cost_usd": 89750.0,
+          "cloud_cost_usd": 14330,
+          "other_operating_cost_usd": 24580,
+          "operating_margin_pct": 20.99,
+          "sla_met_pct": 93.62,
+          "customer_churn_pct": 3.38,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2024-09-01",
+          "revenue_usd": 163302.89,
+          "support_tickets": 2014,
+          "labor_cost_usd": 90214.36,
+          "cloud_cost_usd": 14560,
+          "other_operating_cost_usd": 24860,
+          "operating_margin_pct": 20.62,
+          "sla_met_pct": 93.59,
+          "customer_churn_pct": 3.39,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2024-10-01",
+          "revenue_usd": 164800.0,
+          "support_tickets": 2027,
+          "labor_cost_usd": 91050.0,
+          "cloud_cost_usd": 14790,
+          "other_operating_cost_usd": 25140,
+          "operating_margin_pct": 20.52,
+          "sla_met_pct": 93.66,
+          "customer_churn_pct": 3.36,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2024-11-01",
+          "revenue_usd": 167502.89,
+          "support_tickets": 2062,
+          "labor_cost_usd": 92314.36,
+          "cloud_cost_usd": 15020,
+          "other_operating_cost_usd": 25420,
+          "operating_margin_pct": 20.75,
+          "sla_met_pct": 93.83,
+          "customer_churn_pct": 3.3,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2024-12-01",
+          "revenue_usd": 171250.0,
+          "support_tickets": 2118,
+          "labor_cost_usd": 93950.0,
+          "cloud_cost_usd": 15250,
+          "other_operating_cost_usd": 25700,
+          "operating_margin_pct": 21.23,
+          "sla_met_pct": 94.1,
+          "customer_churn_pct": 3.2,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2025-01-01",
+          "revenue_usd": 175600.0,
+          "support_tickets": 2184,
+          "labor_cost_usd": 95800.0,
+          "cloud_cost_usd": 15480,
+          "other_operating_cost_usd": 25980,
+          "operating_margin_pct": 21.83,
+          "sla_met_pct": 94.42,
+          "customer_churn_pct": 3.08,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2025-02-01",
+          "revenue_usd": 179950.0,
+          "support_tickets": 2250,
+          "labor_cost_usd": 97650.0,
+          "cloud_cost_usd": 15710,
+          "other_operating_cost_usd": 26260,
+          "operating_margin_pct": 22.41,
+          "sla_met_pct": 94.74,
+          "customer_churn_pct": 2.96,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2025-03-01",
+          "revenue_usd": 183697.11,
+          "support_tickets": 2306,
+          "labor_cost_usd": 99285.64,
+          "cloud_cost_usd": 15940,
+          "other_operating_cost_usd": 26540,
+          "operating_margin_pct": 22.83,
+          "sla_met_pct": 95.01,
+          "customer_churn_pct": 2.86,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2025-04-01",
+          "revenue_usd": 186400.0,
+          "support_tickets": 2341,
+          "labor_cost_usd": 100550.0,
+          "cloud_cost_usd": 16170,
+          "other_operating_cost_usd": 26820,
+          "operating_margin_pct": 22.99,
+          "sla_met_pct": 95.18,
+          "customer_churn_pct": 2.79,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2025-05-01",
+          "revenue_usd": 187897.11,
+          "support_tickets": 2354,
+          "labor_cost_usd": 101385.64,
+          "cloud_cost_usd": 16400,
+          "other_operating_cost_usd": 27100,
+          "operating_margin_pct": 22.89,
+          "sla_met_pct": 95.25,
+          "customer_churn_pct": 2.77,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2025-06-01",
+          "revenue_usd": 188350.0,
+          "support_tickets": 2346,
+          "labor_cost_usd": 101850.0,
+          "cloud_cost_usd": 16630,
+          "other_operating_cost_usd": 27380,
+          "operating_margin_pct": 22.56,
+          "sla_met_pct": 95.22,
+          "customer_churn_pct": 2.78,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2025-07-01",
+          "revenue_usd": 188200.0,
+          "support_tickets": 2328,
+          "labor_cost_usd": 102100.0,
+          "cloud_cost_usd": 16860,
+          "other_operating_cost_usd": 27660,
+          "operating_margin_pct": 22.09,
+          "sla_met_pct": 95.14,
+          "customer_churn_pct": 2.81,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2025-08-01",
+          "revenue_usd": 188050.0,
+          "support_tickets": 2310,
+          "labor_cost_usd": 102350.0,
+          "cloud_cost_usd": 17090,
+          "other_operating_cost_usd": 27940,
+          "operating_margin_pct": 21.63,
+          "sla_met_pct": 95.06,
+          "customer_churn_pct": 2.84,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2025-09-01",
+          "revenue_usd": 188502.89,
+          "support_tickets": 2302,
+          "labor_cost_usd": 102814.36,
+          "cloud_cost_usd": 17320,
+          "other_operating_cost_usd": 28220,
+          "operating_margin_pct": 21.3,
+          "sla_met_pct": 95.03,
+          "customer_churn_pct": 2.85,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2025-10-01",
+          "revenue_usd": 190000.0,
+          "support_tickets": 2315,
+          "labor_cost_usd": 103650.0,
+          "cloud_cost_usd": 17550,
+          "other_operating_cost_usd": 28500,
+          "operating_margin_pct": 21.21,
+          "sla_met_pct": 95.1,
+          "customer_churn_pct": 2.82,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2025-11-01",
+          "revenue_usd": 192702.89,
+          "support_tickets": 2350,
+          "labor_cost_usd": 104914.36,
+          "cloud_cost_usd": 17780,
+          "other_operating_cost_usd": 28780,
+          "operating_margin_pct": 21.39,
+          "sla_met_pct": 95.27,
+          "customer_churn_pct": 2.76,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2025-12-01",
+          "revenue_usd": 196450.0,
+          "support_tickets": 2406,
+          "labor_cost_usd": 106550.0,
+          "cloud_cost_usd": 18010,
+          "other_operating_cost_usd": 29060,
+          "operating_margin_pct": 21.8,
+          "sla_met_pct": 95.54,
+          "customer_churn_pct": 2.66,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2026-01-01",
+          "revenue_usd": 200800.0,
+          "support_tickets": 2472,
+          "labor_cost_usd": 108400.0,
+          "cloud_cost_usd": 18240,
+          "other_operating_cost_usd": 29340,
+          "operating_margin_pct": 22.32,
+          "sla_met_pct": 95.86,
+          "customer_churn_pct": 2.54,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2026-02-01",
+          "revenue_usd": 205150.0,
+          "support_tickets": 2538,
+          "labor_cost_usd": 110250.0,
+          "cloud_cost_usd": 18470,
+          "other_operating_cost_usd": 29620,
+          "operating_margin_pct": 22.82,
+          "sla_met_pct": 96.18,
+          "customer_churn_pct": 2.42,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2026-03-01",
+          "revenue_usd": 208897.11,
+          "support_tickets": 2594,
+          "labor_cost_usd": 111885.64,
+          "cloud_cost_usd": 18700,
+          "other_operating_cost_usd": 29900,
+          "operating_margin_pct": 23.17,
+          "sla_met_pct": 96.45,
+          "customer_churn_pct": 2.32,
+          "overdue_invoice_share_pct": 8.5
+        },
+        {
+          "month": "2026-04-01",
+          "revenue_usd": 211600.0,
+          "support_tickets": 2629,
+          "labor_cost_usd": 113150.0,
+          "cloud_cost_usd": 18930,
+          "other_operating_cost_usd": 30180,
+          "operating_margin_pct": 23.32,
+          "sla_met_pct": 96.62,
+          "customer_churn_pct": 2.25,
+          "overdue_invoice_share_pct": 9.2
+        },
+        {
+          "month": "2026-05-01",
+          "revenue_usd": 213097.11,
+          "support_tickets": 2642,
+          "labor_cost_usd": 113985.64,
+          "cloud_cost_usd": 19160,
+          "other_operating_cost_usd": 30460,
+          "operating_margin_pct": 23.22,
+          "sla_met_pct": 96.69,
+          "customer_churn_pct": 2.23,
+          "overdue_invoice_share_pct": 9.9
+        },
+        {
+          "month": "2026-06-01",
+          "revenue_usd": 213550.0,
+          "support_tickets": 2634,
+          "labor_cost_usd": 114450.0,
+          "cloud_cost_usd": 19390,
+          "other_operating_cost_usd": 30740,
+          "operating_margin_pct": 22.93,
+          "sla_met_pct": 96.66,
+          "customer_churn_pct": 2.24,
+          "overdue_invoice_share_pct": 10.6
+        },
+        {
+          "month": "2026-07-01",
+          "revenue_usd": 213400.0,
+          "support_tickets": 2616,
+          "labor_cost_usd": 114700.0,
+          "cloud_cost_usd": 19620,
+          "other_operating_cost_usd": 31020,
+          "operating_margin_pct": 22.52,
+          "sla_met_pct": 96.58,
+          "customer_churn_pct": 2.27,
+          "overdue_invoice_share_pct": 11.3
+        },
+        {
+          "month": "2026-08-01",
+          "revenue_usd": 213250.0,
+          "support_tickets": 2598,
+          "labor_cost_usd": 114950.0,
+          "cloud_cost_usd": 19850,
+          "other_operating_cost_usd": 31300,
+          "operating_margin_pct": 22.11,
+          "sla_met_pct": 96.5,
+          "customer_churn_pct": 2.3,
+          "overdue_invoice_share_pct": 8.5
+        }
+      ]
+    },
+    "US stock market and macroeconomic indicators": {
+      "SP500": {
+        "description": "S&P 500 index, daily observations",
+        "source": "FRED: SP500",
+        "units": "index points",
+        "observations": [
+          {
+            "date": "2023-11-30",
+            "value": 4567.8,
+            "monthly_change_pct": 8.92
+          },
+          {
+            "date": "2023-12-29",
+            "value": 4769.83,
+            "monthly_change_pct": 4.42
+          },
+          {
+            "date": "2024-01-31",
+            "value": 4845.65,
+            "monthly_change_pct": 1.59
+          },
+          {
+            "date": "2024-02-29",
+            "value": 5096.27,
+            "monthly_change_pct": 5.17
+          },
+          {
+            "date": "2024-03-28",
+            "value": 5254.35,
+            "monthly_change_pct": 3.1
+          },
+          {
+            "date": "2024-04-30",
+            "value": 5035.69,
+            "monthly_change_pct": -4.16
+          },
+          {
+            "date": "2024-05-31",
+            "value": 5277.51,
+            "monthly_change_pct": 4.8
+          },
+          {
+            "date": "2024-06-28",
+            "value": 5460.48,
+            "monthly_change_pct": 3.47
+          },
+          {
+            "date": "2024-07-31",
+            "value": 5522.3,
+            "monthly_change_pct": 1.13
+          },
+          {
+            "date": "2024-08-30",
+            "value": 5648.4,
+            "monthly_change_pct": 2.28
+          },
+          {
+            "date": "2024-09-30",
+            "value": 5762.48,
+            "monthly_change_pct": 2.02
+          },
+          {
+            "date": "2024-10-31",
+            "value": 5705.45,
+            "monthly_change_pct": -0.99
+          },
+          {
+            "date": "2024-11-29",
+            "value": 6032.38,
+            "monthly_change_pct": 5.73
+          },
+          {
+            "date": "2024-12-31",
+            "value": 5881.63,
+            "monthly_change_pct": -2.5
+          },
+          {
+            "date": "2025-01-31",
+            "value": 6040.53,
+            "monthly_change_pct": 2.7
+          },
+          {
+            "date": "2025-02-28",
+            "value": 5954.5,
+            "monthly_change_pct": -1.42
+          },
+          {
+            "date": "2025-03-31",
+            "value": 5611.85,
+            "monthly_change_pct": -5.75
+          },
+          {
+            "date": "2025-04-30",
+            "value": 5569.06,
+            "monthly_change_pct": -0.76
+          },
+          {
+            "date": "2025-05-30",
+            "value": 5911.69,
+            "monthly_change_pct": 6.15
+          },
+          {
+            "date": "2025-06-30",
+            "value": 6204.95,
+            "monthly_change_pct": 4.96
+          },
+          {
+            "date": "2025-07-31",
+            "value": 6339.39,
+            "monthly_change_pct": 2.17
+          },
+          {
+            "date": "2025-08-29",
+            "value": 6460.26,
+            "monthly_change_pct": 1.91
+          },
+          {
+            "date": "2025-09-30",
+            "value": 6688.46,
+            "monthly_change_pct": 3.53
+          },
+          {
+            "date": "2025-10-31",
+            "value": 6840.2,
+            "monthly_change_pct": 2.27
+          },
+          {
+            "date": "2025-11-28",
+            "value": 6849.09,
+            "monthly_change_pct": 0.13
+          },
+          {
+            "date": "2025-12-31",
+            "value": 6845.5,
+            "monthly_change_pct": -0.05
+          },
+          {
+            "date": "2026-01-30",
+            "value": 6939.03,
+            "monthly_change_pct": 1.37
+          },
+          {
+            "date": "2026-02-27",
+            "value": 6878.88,
+            "monthly_change_pct": -0.87
+          },
+          {
+            "date": "2026-03-31",
+            "value": 6528.52,
+            "monthly_change_pct": -5.09
+          },
+          {
+            "date": "2026-04-30",
+            "value": 7209.01,
+            "monthly_change_pct": 10.42
+          },
+          {
+            "date": "2026-05-29",
+            "value": 7580.06,
+            "monthly_change_pct": 5.15
+          },
+          {
+            "date": "2026-06-30",
+            "value": 7499.36,
+            "monthly_change_pct": -1.06
+          },
+          {
+            "date": "2026-07-31",
+            "value": 7489.72,
+            "monthly_change_pct": -0.13
+          },
+          {
+            "date": "2026-08-31",
+            "value": 7686.14,
+            "monthly_change_pct": 2.62
+          },
+          {
+            "date": "2026-09-30",
+            "value": 7651.54,
+            "monthly_change_pct": -0.45
+          },
+          {
+            "date": "2026-10-09",
+            "value": 7811.54,
+            "monthly_change_pct": 2.09
+          }
+        ],
+        "derived_metric": "monthly_change_pct"
+      },
+      "FEDFUNDS": {
+        "description": "Effective federal funds rate, percent",
+        "source": "FRED: FEDFUNDS",
+        "units": "percent",
+        "observations": [
+          {
+            "date": "2023-10-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2023-11-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2023-12-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-01-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-02-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-03-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-04-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-05-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-06-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-07-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-08-01",
+            "value": 5.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2024-09-01",
+            "value": 5.13,
+            "monthly_change_percentage_points": -0.2
+          },
+          {
+            "date": "2024-10-01",
+            "value": 4.83,
+            "monthly_change_percentage_points": -0.3
+          },
+          {
+            "date": "2024-11-01",
+            "value": 4.64,
+            "monthly_change_percentage_points": -0.19
+          },
+          {
+            "date": "2024-12-01",
+            "value": 4.48,
+            "monthly_change_percentage_points": -0.16
+          },
+          {
+            "date": "2025-01-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": -0.15
+          },
+          {
+            "date": "2025-02-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-03-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-04-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-05-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-06-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-07-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-08-01",
+            "value": 4.33,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2025-09-01",
+            "value": 4.22,
+            "monthly_change_percentage_points": -0.11
+          },
+          {
+            "date": "2025-10-01",
+            "value": 4.09,
+            "monthly_change_percentage_points": -0.13
+          },
+          {
+            "date": "2025-11-01",
+            "value": 3.88,
+            "monthly_change_percentage_points": -0.21
+          },
+          {
+            "date": "2025-12-01",
+            "value": 3.72,
+            "monthly_change_percentage_points": -0.16
+          },
+          {
+            "date": "2026-01-01",
+            "value": 3.64,
+            "monthly_change_percentage_points": -0.08
+          },
+          {
+            "date": "2026-02-01",
+            "value": 3.64,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2026-03-01",
+            "value": 3.64,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 3.64,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2026-05-01",
+            "value": 3.63,
+            "monthly_change_percentage_points": -0.01
+          },
+          {
+            "date": "2026-06-01",
+            "value": 3.63,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2026-07-01",
+            "value": 3.63,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2026-08-01",
+            "value": 3.63,
+            "monthly_change_percentage_points": 0.0
+          },
+          {
+            "date": "2026-09-01",
+            "value": 3.75,
+            "monthly_change_percentage_points": 0.12
+          }
+        ],
+        "derived_metric": "monthly_change_percentage_points"
+      },
+      "CPIAUCSL": {
+        "description": "Consumer Price Index for All Urban Consumers, index",
+        "source": "FRED: CPIAUCSL",
+        "units": "index points",
+        "observations": [
+          {
+            "date": "2023-08-01",
+            "value": 306.082
+          },
+          {
+            "date": "2023-09-01",
+            "value": 307.276,
+            "year_over_year_change_pct": 3.69
+          },
+          {
+            "date": "2023-10-01",
+            "value": 307.696,
+            "year_over_year_change_pct": 3.25
+          },
+          {
+            "date": "2023-11-01",
+            "value": 308.148,
+            "year_over_year_change_pct": 3.13
+          },
+          {
+            "date": "2023-12-01",
+            "value": 308.741,
+            "year_over_year_change_pct": 3.32
+          },
+          {
+            "date": "2024-01-01",
+            "value": 309.698,
+            "year_over_year_change_pct": 3.09
+          },
+          {
+            "date": "2024-02-01",
+            "value": 310.967,
+            "year_over_year_change_pct": 3.16
+          },
+          {
+            "date": "2024-03-01",
+            "value": 312.345,
+            "year_over_year_change_pct": 3.49
+          },
+          {
+            "date": "2024-04-01",
+            "value": 313.023,
+            "year_over_year_change_pct": 3.36
+          },
+          {
+            "date": "2024-05-01",
+            "value": 313.175,
+            "year_over_year_change_pct": 3.24
+          },
+          {
+            "date": "2024-06-01",
+            "value": 313.044,
+            "year_over_year_change_pct": 2.97
+          },
+          {
+            "date": "2024-07-01",
+            "value": 313.569,
+            "year_over_year_change_pct": 2.94
+          },
+          {
+            "date": "2024-08-01",
+            "value": 314.062,
+            "year_over_year_change_pct": 2.61
+          },
+          {
+            "date": "2024-09-01",
+            "value": 314.732,
+            "year_over_year_change_pct": 2.43
+          },
+          {
+            "date": "2024-10-01",
+            "value": 315.631,
+            "year_over_year_change_pct": 2.58
+          },
+          {
+            "date": "2024-11-01",
+            "value": 316.528,
+            "year_over_year_change_pct": 2.72
+          },
+          {
+            "date": "2024-12-01",
+            "value": 317.604,
+            "year_over_year_change_pct": 2.87
+          },
+          {
+            "date": "2025-01-01",
+            "value": 318.961,
+            "year_over_year_change_pct": 2.99
+          },
+          {
+            "date": "2025-02-01",
+            "value": 319.679,
+            "year_over_year_change_pct": 2.8
+          },
+          {
+            "date": "2025-03-01",
+            "value": 319.785,
+            "year_over_year_change_pct": 2.38
+          },
+          {
+            "date": "2025-04-01",
+            "value": 320.302,
+            "year_over_year_change_pct": 2.33
+          },
+          {
+            "date": "2025-05-01",
+            "value": 320.62,
+            "year_over_year_change_pct": 2.38
+          },
+          {
+            "date": "2025-06-01",
+            "value": 321.435,
+            "year_over_year_change_pct": 2.68
+          },
+          {
+            "date": "2025-07-01",
+            "value": 322.169,
+            "year_over_year_change_pct": 2.74
+          },
+          {
+            "date": "2025-08-01",
+            "value": 323.291,
+            "year_over_year_change_pct": 2.94
+          },
+          {
+            "date": "2025-09-01",
+            "value": 324.245,
+            "year_over_year_change_pct": 3.02
+          },
+          {
+            "date": "2025-11-01",
+            "value": 325.063,
+            "year_over_year_change_pct": 2.7
+          },
+          {
+            "date": "2025-12-01",
+            "value": 326.031,
+            "year_over_year_change_pct": 2.65
+          },
+          {
+            "date": "2026-01-01",
+            "value": 326.588,
+            "year_over_year_change_pct": 2.39
+          },
+          {
+            "date": "2026-02-01",
+            "value": 327.46,
+            "year_over_year_change_pct": 2.43
+          },
+          {
+            "date": "2026-03-01",
+            "value": 330.293,
+            "year_over_year_change_pct": 3.29
+          },
+          {
+            "date": "2026-04-01",
+            "value": 332.407,
+            "year_over_year_change_pct": 3.78
+          },
+          {
+            "date": "2026-05-01",
+            "value": 333.979,
+            "year_over_year_change_pct": 4.17
+          },
+          {
+            "date": "2026-06-01",
+            "value": 332.568,
+            "year_over_year_change_pct": 3.46
+          },
+          {
+            "date": "2026-07-01",
+            "value": 332.813,
+            "year_over_year_change_pct": 3.3
+          },
+          {
+            "date": "2026-08-01",
+            "value": 334.131,
+            "year_over_year_change_pct": 3.35
+          }
+        ],
+        "derived_metric": "year_over_year_change_pct"
+      }
+    },
+    "Crude oil prices": {
+      "DCOILWTICO": {
+        "description": "West Texas Intermediate spot price, dollars per barrel",
+        "source": "FRED: DCOILWTICO",
+        "units": "US dollars per barrel",
+        "observations": [
+          {
+            "date": "2023-11-30",
+            "value": 75.66,
+            "monthly_change_pct": -7.32
+          },
+          {
+            "date": "2023-12-29",
+            "value": 71.89,
+            "monthly_change_pct": -4.98
+          },
+          {
+            "date": "2024-01-31",
+            "value": 76.28,
+            "monthly_change_pct": 6.11
+          },
+          {
+            "date": "2024-02-29",
+            "value": 79.22,
+            "monthly_change_pct": 3.85
+          },
+          {
+            "date": "2024-03-28",
+            "value": 83.96,
+            "monthly_change_pct": 5.98
+          },
+          {
+            "date": "2024-04-30",
+            "value": 83.49,
+            "monthly_change_pct": -0.56
+          },
+          {
+            "date": "2024-05-31",
+            "value": 77.97,
+            "monthly_change_pct": -6.61
+          },
+          {
+            "date": "2024-06-28",
+            "value": 82.83,
+            "monthly_change_pct": 6.23
+          },
+          {
+            "date": "2024-07-31",
+            "value": 79.36,
+            "monthly_change_pct": -4.19
+          },
+          {
+            "date": "2024-08-30",
+            "value": 74.52,
+            "monthly_change_pct": -6.1
+          },
+          {
+            "date": "2024-09-30",
+            "value": 68.75,
+            "monthly_change_pct": -7.74
+          },
+          {
+            "date": "2024-10-31",
+            "value": 69.58,
+            "monthly_change_pct": 1.21
+          },
+          {
+            "date": "2024-11-29",
+            "value": 68.26,
+            "monthly_change_pct": -1.9
+          },
+          {
+            "date": "2024-12-31",
+            "value": 72.44,
+            "monthly_change_pct": 6.12
+          },
+          {
+            "date": "2025-01-31",
+            "value": 72.84,
+            "monthly_change_pct": 0.55
+          },
+          {
+            "date": "2025-02-28",
+            "value": 69.97,
+            "monthly_change_pct": -3.94
+          },
+          {
+            "date": "2025-03-31",
+            "value": 71.87,
+            "monthly_change_pct": 2.72
+          },
+          {
+            "date": "2025-04-30",
+            "value": 59.55,
+            "monthly_change_pct": -17.14
+          },
+          {
+            "date": "2025-05-30",
+            "value": 61.46,
+            "monthly_change_pct": 3.21
+          },
+          {
+            "date": "2025-06-30",
+            "value": 66.3,
+            "monthly_change_pct": 7.88
+          },
+          {
+            "date": "2025-07-31",
+            "value": 70.36,
+            "monthly_change_pct": 6.12
+          },
+          {
+            "date": "2025-08-29",
+            "value": 64.36,
+            "monthly_change_pct": -8.53
+          },
+          {
+            "date": "2025-09-30",
+            "value": 63.17,
+            "monthly_change_pct": -1.85
+          },
+          {
+            "date": "2025-10-31",
+            "value": 61.75,
+            "monthly_change_pct": -2.25
+          },
+          {
+            "date": "2025-11-28",
+            "value": 58.58,
+            "monthly_change_pct": -5.13
+          },
+          {
+            "date": "2025-12-31",
+            "value": 57.26,
+            "monthly_change_pct": -2.25
+          },
+          {
+            "date": "2026-01-30",
+            "value": 64.5,
+            "monthly_change_pct": 12.64
+          },
+          {
+            "date": "2026-02-27",
+            "value": 66.96,
+            "monthly_change_pct": 3.81
+          },
+          {
+            "date": "2026-03-31",
+            "value": 102.86,
+            "monthly_change_pct": 53.61
+          },
+          {
+            "date": "2026-04-30",
+            "value": 108.64,
+            "monthly_change_pct": 5.62
+          },
+          {
+            "date": "2026-05-29",
+            "value": 91.16,
+            "monthly_change_pct": -16.09
+          },
+          {
+            "date": "2026-06-30",
+            "value": 70.56,
+            "monthly_change_pct": -22.6
+          },
+          {
+            "date": "2026-07-31",
+            "value": 86.16,
+            "monthly_change_pct": 22.11
+          },
+          {
+            "date": "2026-08-31",
+            "value": 87.03,
+            "monthly_change_pct": 1.01
+          },
+          {
+            "date": "2026-09-30",
+            "value": 97.18,
+            "monthly_change_pct": 11.66
+          },
+          {
+            "date": "2026-10-06",
+            "value": 96.24,
+            "monthly_change_pct": -0.97
+          }
+        ],
+        "derived_metric": "monthly_change_pct"
+      }
+    }
+  },
+  "prompts": {
+    "analysis": "Analyze the supplied data for a hypothetical US technology-support company. The company operating dataset is synthetic teaching data, not a real firm's results. FRED observations are historical public data; the latest available observations may not be from today.\n\nPOLICY CONTEXT SUPPLIED BY THE USER:\nNo specific policy text supplied. Identify policy details only if they are within your knowledge; state the relevant date and disclose uncertainty rather than assuming events.\n\nSCENARIO 1 — ECONOMIC POLICY AND COMPANY FINANCIAL OUTLOOK\nForecast the potential impact of recent economic policies on the technology-support industry and this hypothetical company's revenue, labor/cloud costs, operating margin, and customer demand over 3–12 months. Use the S&P 500, federal funds rate, CPI, and sample company observations. If the policy context does not identify a verifiable policy and date, say so; do not invent one. The company is private and has no observed stock price, so do not claim to forecast its share price. Explain plausible transmission mechanisms, distinguish correlation from causation, and give a cautious outlook with assumptions and risks.\n\nSCENARIO 2 — COMPANY DEMAND AND OPERATING-COST TRENDS\nAnalyze the sample ticket-volume, revenue, labor, cloud-cost, churn, and SLA history to forecast 3–12 month company trends. Separately explain how historical WTI crude-oil prices might affect onsite dispatch/travel costs, without treating oil as a direct measure of cloud costs. Give cautious directional forecasts and ranges only where supported, and discuss trend, volatility, assumptions, and material supply/demand risks.\n\nFor both scenarios, cite dates and values from the supplied observations where relevant. Separate observed facts from forecasts, state limitations (including that past performance does not guarantee future results), and avoid presenting the output as individualized investment advice.\n\nDATA (JSON):\n{\"hypothetical_tech_support_company\":{\"synthetic\":true,\"source_note\":\"Deterministic instructional sample data; not actual company financial or operating results.\",\"observations\":[{\"month\":\"2025-09-01\",\"revenue_usd\":188502.89,\"support_tickets\":2302,\"labor_cost_usd\":102814.36,\"cloud_cost_usd\":17320,\"other_operating_cost_usd\":28220,\"operating_margin_pct\":21.3,\"sla_met_pct\":95.03,\"customer_churn_pct\":2.85,\"overdue_invoice_share_pct\":11.3},{\"month\":\"2025-10-01\",\"revenue_usd\":190000.0,\"support_tickets\":2315,\"labor_cost_usd\":103650.0,\"cloud_cost_usd\":17550,\"other_operating_cost_usd\":28500,\"operating_margin_pct\":21.21,\"sla_met_pct\":95.1,\"customer_churn_pct\":2.82,\"overdue_invoice_share_pct\":8.5},{\"month\":\"2025-11-01\",\"revenue_usd\":192702.89,\"support_tickets\":2350,\"labor_cost_usd\":104914.36,\"cloud_cost_usd\":17780,\"other_operating_cost_usd\":28780,\"operating_margin_pct\":21.39,\"sla_met_pct\":95.27,\"customer_churn_pct\":2.76,\"overdue_invoice_share_pct\":9.2},{\"month\":\"2025-12-01\",\"revenue_usd\":196450.0,\"support_tickets\":2406,\"labor_cost_usd\":106550.0,\"cloud_cost_usd\":18010,\"other_operating_cost_usd\":29060,\"operating_margin_pct\":21.8,\"sla_met_pct\":95.54,\"customer_churn_pct\":2.66,\"overdue_invoice_share_pct\":9.9},{\"month\":\"2026-01-01\",\"revenue_usd\":200800.0,\"support_tickets\":2472,\"labor_cost_usd\":108400.0,\"cloud_cost_usd\":18240,\"other_operating_cost_usd\":29340,\"operating_margin_pct\":22.32,\"sla_met_pct\":95.86,\"customer_churn_pct\":2.54,\"overdue_invoice_share_pct\":10.6},{\"month\":\"2026-02-01\",\"revenue_usd\":205150.0,\"support_tickets\":2538,\"labor_cost_usd\":110250.0,\"cloud_cost_usd\":18470,\"other_operating_cost_usd\":29620,\"operating_margin_pct\":22.82,\"sla_met_pct\":96.18,\"customer_churn_pct\":2.42,\"overdue_invoice_share_pct\":11.3},{\"month\":\"2026-03-01\",\"revenue_usd\":208897.11,\"support_tickets\":2594,\"labor_cost_usd\":111885.64,\"cloud_cost_usd\":18700,\"other_operating_cost_usd\":29900,\"operating_margin_pct\":23.17,\"sla_met_pct\":96.45,\"customer_churn_pct\":2.32,\"overdue_invoice_share_pct\":8.5},{\"month\":\"2026-04-01\",\"revenue_usd\":211600.0,\"support_tickets\":2629,\"labor_cost_usd\":113150.0,\"cloud_cost_usd\":18930,\"other_operating_cost_usd\":30180,\"operating_margin_pct\":23.32,\"sla_met_pct\":96.62,\"customer_churn_pct\":2.25,\"overdue_invoice_share_pct\":9.2},{\"month\":\"2026-05-01\",\"revenue_usd\":213097.11,\"support_tickets\":2642,\"labor_cost_usd\":113985.64,\"cloud_cost_usd\":19160,\"other_operating_cost_usd\":30460,\"operating_margin_pct\":23.22,\"sla_met_pct\":96.69,\"customer_churn_pct\":2.23,\"overdue_invoice_share_pct\":9.9},{\"month\":\"2026-06-01\",\"revenue_usd\":213550.0,\"support_tickets\":2634,\"labor_cost_usd\":114450.0,\"cloud_cost_usd\":19390,\"other_operating_cost_usd\":30740,\"operating_margin_pct\":22.93,\"sla_met_pct\":96.66,\"customer_churn_pct\":2.24,\"overdue_invoice_share_pct\":10.6},{\"month\":\"2026-07-01\",\"revenue_usd\":213400.0,\"support_tickets\":2616,\"labor_cost_usd\":114700.0,\"cloud_cost_usd\":19620,\"other_operating_cost_usd\":31020,\"operating_margin_pct\":22.52,\"sla_met_pct\":96.58,\"customer_churn_pct\":2.27,\"overdue_invoice_share_pct\":11.3},{\"month\":\"2026-08-01\",\"revenue_usd\":213250.0,\"support_tickets\":2598,\"labor_cost_usd\":114950.0,\"cloud_cost_usd\":19850,\"other_operating_cost_usd\":31300,\"operating_margin_pct\":22.11,\"sla_met_pct\":96.5,\"customer_churn_pct\":2.3,\"overdue_invoice_share_pct\":8.5}]},\"US stock market and macroeconomic indicators\":{\"SP500\":{\"description\":\"S&P 500 index, daily observations\",\"source\":\"FRED: SP500\",\"units\":\"index points\",\"observations\":[{\"date\":\"2025-11-28\",\"value\":6849.09,\"monthly_change_pct\":0.13},{\"date\":\"2025-12-31\",\"value\":6845.5,\"monthly_change_pct\":-0.05},{\"date\":\"2026-01-30\",\"value\":6939.03,\"monthly_change_pct\":1.37},{\"date\":\"2026-02-27\",\"value\":6878.88,\"monthly_change_pct\":-0.87},{\"date\":\"2026-03-31\",\"value\":6528.52,\"monthly_change_pct\":-5.09},{\"date\":\"2026-04-30\",\"value\":7209.01,\"monthly_change_pct\":10.42},{\"date\":\"2026-05-29\",\"value\":7580.06,\"monthly_change_pct\":5.15},{\"date\":\"2026-06-30\",\"value\":7499.36,\"monthly_change_pct\":-1.06},{\"date\":\"2026-07-31\",\"value\":7489.72,\"monthly_change_pct\":-0.13},{\"date\":\"2026-08-31\",\"value\":7686.14,\"monthly_change_pct\":2.62},{\"date\":\"2026-09-30\",\"value\":7651.54,\"monthly_change_pct\":-0.45},{\"date\":\"2026-10-09\",\"value\":7811.54,\"monthly_change_pct\":2.09}],\"derived_metric\":\"monthly_change_pct\"},\"FEDFUNDS\":{\"description\":\"Effective federal funds rate, percent\",\"source\":\"FRED: FEDFUNDS\",\"units\":\"percent\",\"observations\":[{\"date\":\"2025-10-01\",\"value\":4.09,\"monthly_change_percentage_points\":-0.13},{\"date\":\"2025-11-01\",\"value\":3.88,\"monthly_change_percentage_points\":-0.21},{\"date\":\"2025-12-01\",\"value\":3.72,\"monthly_change_percentage_points\":-0.16},{\"date\":\"2026-01-01\",\"value\":3.64,\"monthly_change_percentage_points\":-0.08},{\"date\":\"2026-02-01\",\"value\":3.64,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-03-01\",\"value\":3.64,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-04-01\",\"value\":3.64,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-05-01\",\"value\":3.63,\"monthly_change_percentage_points\":-0.01},{\"date\":\"2026-06-01\",\"value\":3.63,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-07-01\",\"value\":3.63,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-08-01\",\"value\":3.63,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-09-01\",\"value\":3.75,\"monthly_change_percentage_points\":0.12}],\"derived_metric\":\"monthly_change_percentage_points\"},\"CPIAUCSL\":{\"description\":\"Consumer Price Index for All Urban Consumers, index\",\"source\":\"FRED: CPIAUCSL\",\"units\":\"index points\",\"observations\":[{\"date\":\"2025-08-01\",\"value\":323.291,\"year_over_year_change_pct\":2.94},{\"date\":\"2025-09-01\",\"value\":324.245,\"year_over_year_change_pct\":3.02},{\"date\":\"2025-11-01\",\"value\":325.063,\"year_over_year_change_pct\":2.7},{\"date\":\"2025-12-01\",\"value\":326.031,\"year_over_year_change_pct\":2.65},{\"date\":\"2026-01-01\",\"value\":326.588,\"year_over_year_change_pct\":2.39},{\"date\":\"2026-02-01\",\"value\":327.46,\"year_over_year_change_pct\":2.43},{\"date\":\"2026-03-01\",\"value\":330.293,\"year_over_year_change_pct\":3.29},{\"date\":\"2026-04-01\",\"value\":332.407,\"year_over_year_change_pct\":3.78},{\"date\":\"2026-05-01\",\"value\":333.979,\"year_over_year_change_pct\":4.17},{\"date\":\"2026-06-01\",\"value\":332.568,\"year_over_year_change_pct\":3.46},{\"date\":\"2026-07-01\",\"value\":332.813,\"year_over_year_change_pct\":3.3},{\"date\":\"2026-08-01\",\"value\":334.131,\"year_over_year_change_pct\":3.35}],\"derived_metric\":\"year_over_year_change_pct\"}},\"Crude oil prices\":{\"DCOILWTICO\":{\"description\":\"West Texas Intermediate spot price, dollars per barrel\",\"source\":\"FRED: DCOILWTICO\",\"units\":\"US dollars per barrel\",\"observations\":[{\"date\":\"2025-11-28\",\"value\":58.58,\"monthly_change_pct\":-5.13},{\"date\":\"2025-12-31\",\"value\":57.26,\"monthly_change_pct\":-2.25},{\"date\":\"2026-01-30\",\"value\":64.5,\"monthly_change_pct\":12.64},{\"date\":\"2026-02-27\",\"value\":66.96,\"monthly_change_pct\":3.81},{\"date\":\"2026-03-31\",\"value\":102.86,\"monthly_change_pct\":53.61},{\"date\":\"2026-04-30\",\"value\":108.64,\"monthly_change_pct\":5.62},{\"date\":\"2026-05-29\",\"value\":91.16,\"monthly_change_pct\":-16.09},{\"date\":\"2026-06-30\",\"value\":70.56,\"monthly_change_pct\":-22.6},{\"date\":\"2026-07-31\",\"value\":86.16,\"monthly_change_pct\":22.11},{\"date\":\"2026-08-31\",\"value\":87.03,\"monthly_change_pct\":1.01},{\"date\":\"2026-09-30\",\"value\":97.18,\"monthly_change_pct\":11.66},{\"date\":\"2026-10-06\",\"value\":96.24,\"monthly_change_pct\":-0.97}],\"derived_metric\":\"monthly_change_pct\"}}}\n",
+    "assessment": "Independently assess both model responses against the observed data below. Score each criterion from 1 (poor) to 5 (strong). \"Accuracy\" here means consistency with the supplied historical observations and sound separation of fact from forecast; future forecast accuracy cannot be known yet. Be evidence-based, note any unsupported claims, and do not reward confidence by itself.\n\nRUBRIC:\n- accuracy: Consistency with the supplied observations and correct distinction between evidence, inference, and uncertain future outcomes.\n- relevance: Directly answers both scenarios with useful, data-grounded insights.\n- reliability: Acknowledges limits, avoids unsupported certainty, and provides transparent assumptions and appropriately cautious conclusions.\n\nReturn exactly one JSON object and no markdown, code fences, or text before or\nafter it. Keep each rationale to one short sentence. Example:\n{\n  \"scores\": {\n    \"groq_model_1\": {\"accuracy\": 1, \"relevance\": 1, \"reliability\": 1},\n    \"groq_model_2\": {\"accuracy\": 1, \"relevance\": 1, \"reliability\": 1}\n  },\n  \"rationale\": {\n    \"groq_model_1\": \"Brief evidence-based explanation.\",\n    \"groq_model_2\": \"Brief evidence-based explanation.\"\n  }\n}\n\nDATA:\n{\"hypothetical_tech_support_company\":{\"synthetic\":true,\"source_note\":\"Deterministic instructional sample data; not actual company financial or operating results.\",\"observations\":[{\"month\":\"2025-12-01\",\"revenue_usd\":196450.0,\"support_tickets\":2406,\"labor_cost_usd\":106550.0,\"cloud_cost_usd\":18010,\"other_operating_cost_usd\":29060,\"operating_margin_pct\":21.8,\"sla_met_pct\":95.54,\"customer_churn_pct\":2.66,\"overdue_invoice_share_pct\":9.9},{\"month\":\"2026-01-01\",\"revenue_usd\":200800.0,\"support_tickets\":2472,\"labor_cost_usd\":108400.0,\"cloud_cost_usd\":18240,\"other_operating_cost_usd\":29340,\"operating_margin_pct\":22.32,\"sla_met_pct\":95.86,\"customer_churn_pct\":2.54,\"overdue_invoice_share_pct\":10.6},{\"month\":\"2026-02-01\",\"revenue_usd\":205150.0,\"support_tickets\":2538,\"labor_cost_usd\":110250.0,\"cloud_cost_usd\":18470,\"other_operating_cost_usd\":29620,\"operating_margin_pct\":22.82,\"sla_met_pct\":96.18,\"customer_churn_pct\":2.42,\"overdue_invoice_share_pct\":11.3},{\"month\":\"2026-03-01\",\"revenue_usd\":208897.11,\"support_tickets\":2594,\"labor_cost_usd\":111885.64,\"cloud_cost_usd\":18700,\"other_operating_cost_usd\":29900,\"operating_margin_pct\":23.17,\"sla_met_pct\":96.45,\"customer_churn_pct\":2.32,\"overdue_invoice_share_pct\":8.5},{\"month\":\"2026-04-01\",\"revenue_usd\":211600.0,\"support_tickets\":2629,\"labor_cost_usd\":113150.0,\"cloud_cost_usd\":18930,\"other_operating_cost_usd\":30180,\"operating_margin_pct\":23.32,\"sla_met_pct\":96.62,\"customer_churn_pct\":2.25,\"overdue_invoice_share_pct\":9.2},{\"month\":\"2026-05-01\",\"revenue_usd\":213097.11,\"support_tickets\":2642,\"labor_cost_usd\":113985.64,\"cloud_cost_usd\":19160,\"other_operating_cost_usd\":30460,\"operating_margin_pct\":23.22,\"sla_met_pct\":96.69,\"customer_churn_pct\":2.23,\"overdue_invoice_share_pct\":9.9},{\"month\":\"2026-06-01\",\"revenue_usd\":213550.0,\"support_tickets\":2634,\"labor_cost_usd\":114450.0,\"cloud_cost_usd\":19390,\"other_operating_cost_usd\":30740,\"operating_margin_pct\":22.93,\"sla_met_pct\":96.66,\"customer_churn_pct\":2.24,\"overdue_invoice_share_pct\":10.6},{\"month\":\"2026-07-01\",\"revenue_usd\":213400.0,\"support_tickets\":2616,\"labor_cost_usd\":114700.0,\"cloud_cost_usd\":19620,\"other_operating_cost_usd\":31020,\"operating_margin_pct\":22.52,\"sla_met_pct\":96.58,\"customer_churn_pct\":2.27,\"overdue_invoice_share_pct\":11.3},{\"month\":\"2026-08-01\",\"revenue_usd\":213250.0,\"support_tickets\":2598,\"labor_cost_usd\":114950.0,\"cloud_cost_usd\":19850,\"other_operating_cost_usd\":31300,\"operating_margin_pct\":22.11,\"sla_met_pct\":96.5,\"customer_churn_pct\":2.3,\"overdue_invoice_share_pct\":8.5}]},\"US stock market and macroeconomic indicators\":{\"SP500\":{\"description\":\"S&P 500 index, daily observations\",\"source\":\"FRED: SP500\",\"units\":\"index points\",\"observations\":[{\"date\":\"2026-02-27\",\"value\":6878.88,\"monthly_change_pct\":-0.87},{\"date\":\"2026-03-31\",\"value\":6528.52,\"monthly_change_pct\":-5.09},{\"date\":\"2026-04-30\",\"value\":7209.01,\"monthly_change_pct\":10.42},{\"date\":\"2026-05-29\",\"value\":7580.06,\"monthly_change_pct\":5.15},{\"date\":\"2026-06-30\",\"value\":7499.36,\"monthly_change_pct\":-1.06},{\"date\":\"2026-07-31\",\"value\":7489.72,\"monthly_change_pct\":-0.13},{\"date\":\"2026-08-31\",\"value\":7686.14,\"monthly_change_pct\":2.62},{\"date\":\"2026-09-30\",\"value\":7651.54,\"monthly_change_pct\":-0.45},{\"date\":\"2026-10-09\",\"value\":7811.54,\"monthly_change_pct\":2.09}],\"derived_metric\":\"monthly_change_pct\"},\"FEDFUNDS\":{\"description\":\"Effective federal funds rate, percent\",\"source\":\"FRED: FEDFUNDS\",\"units\":\"percent\",\"observations\":[{\"date\":\"2026-01-01\",\"value\":3.64,\"monthly_change_percentage_points\":-0.08},{\"date\":\"2026-02-01\",\"value\":3.64,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-03-01\",\"value\":3.64,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-04-01\",\"value\":3.64,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-05-01\",\"value\":3.63,\"monthly_change_percentage_points\":-0.01},{\"date\":\"2026-06-01\",\"value\":3.63,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-07-01\",\"value\":3.63,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-08-01\",\"value\":3.63,\"monthly_change_percentage_points\":0.0},{\"date\":\"2026-09-01\",\"value\":3.75,\"monthly_change_percentage_points\":0.12}],\"derived_metric\":\"monthly_change_percentage_points\"},\"CPIAUCSL\":{\"description\":\"Consumer Price Index for All Urban Consumers, index\",\"source\":\"FRED: CPIAUCSL\",\"units\":\"index points\",\"observations\":[{\"date\":\"2025-12-01\",\"value\":326.031,\"year_over_year_change_pct\":2.65},{\"date\":\"2026-01-01\",\"value\":326.588,\"year_over_year_change_pct\":2.39},{\"date\":\"2026-02-01\",\"value\":327.46,\"year_over_year_change_pct\":2.43},{\"date\":\"2026-03-01\",\"value\":330.293,\"year_over_year_change_pct\":3.29},{\"date\":\"2026-04-01\",\"value\":332.407,\"year_over_year_change_pct\":3.78},{\"date\":\"2026-05-01\",\"value\":333.979,\"year_over_year_change_pct\":4.17},{\"date\":\"2026-06-01\",\"value\":332.568,\"year_over_year_change_pct\":3.46},{\"date\":\"2026-07-01\",\"value\":332.813,\"year_over_year_change_pct\":3.3},{\"date\":\"2026-08-01\",\"value\":334.131,\"year_over_year_change_pct\":3.35}],\"derived_metric\":\"year_over_year_change_pct\"}},\"Crude oil prices\":{\"DCOILWTICO\":{\"description\":\"West Texas Intermediate spot price, dollars per barrel\",\"source\":\"FRED: DCOILWTICO\",\"units\":\"US dollars per barrel\",\"observations\":[{\"date\":\"2026-02-27\",\"value\":66.96,\"monthly_change_pct\":3.81},{\"date\":\"2026-03-31\",\"value\":102.86,\"monthly_change_pct\":53.61},{\"date\":\"2026-04-30\",\"value\":108.64,\"monthly_change_pct\":5.62},{\"date\":\"2026-05-29\",\"value\":91.16,\"monthly_change_pct\":-16.09},{\"date\":\"2026-06-30\",\"value\":70.56,\"monthly_change_pct\":-22.6},{\"date\":\"2026-07-31\",\"value\":86.16,\"monthly_change_pct\":22.11},{\"date\":\"2026-08-31\",\"value\":87.03,\"monthly_change_pct\":1.01},{\"date\":\"2026-09-30\",\"value\":97.18,\"monthly_change_pct\":11.66},{\"date\":\"2026-10-06\",\"value\":96.24,\"monthly_change_pct\":-0.97}],\"derived_metric\":\"monthly_change_pct\"}}}\n\nRESPONSES:\n{\"groq_model_1\":{\"model\":\"openai/gpt-oss-20b\",\"response\":{\"analysis\":\"**Overview**\\n\\nThe data supplied are a deterministic, synthetic \\u201cinstructional\\u201d dataset for a private U.S. technology\\u2011support firm.  All observations are internally consistent but do **not** represent real\\u2011world performance.  The macro\\u2011economic series (S&P\\u202f500, federal funds rate, CPI, WTI crude) are real FRED observations, but the latest dates in the dataset are from late\\u202f2026, not the present.  Because no specific policy event or date was supplied, I treat the macro\\u2011environment as \\u201ccurrent\\u201d (i.e., the most recent observations) and discuss only the mechanisms that could plausibly transmit those macro signals to the company\\u2019s operating metrics.  All forecasts are **directional only**; they are based on observed trends\"}},\"groq_model_2\":{\"model\":\"openai/gpt-oss-120b\",\"response\":{\"analysis\":\"**Executive Summary**\\n\\n* The synthetic technology\\u2011support firm shows a steady rise in revenue (\\u2248\\u202f+\\u202f13\\u202f% from Sep\\u202f2025 to Aug\\u202f2026) and operating margin (\\u2248\\u202f+\\u202f1\\u202fppt) while ticket volume, labor cost and cloud cost have all grown at roughly the same pace.  \\n* Macro\\u2011indicators over the same period point to a **volatile equity market**, a **stable\\u2011to\\u2011slightly\\u2011higher federal\\u2011funds rate**, and **moderately\\u2011inflationary CPI** (\\u2248\\u202f3\\u202f%\\u20114\\u202f% YoY).  \\n* No specific, verifiable economic policy (e.g., a new tax, stimulus package, or regulatory change) is identified in the supplied material; therefore the analysis focuses on the observable macro\\u2011environment and its typical transmission channels to a private tech\\u2011support business.  \\n* Crude\\u2011oil price swings have been large (\\u2248\\u202f\\u201122\\u202f% to\\u202f+\\u202f53\\u202f% month\\u2011over\\u2011month) but only affect **travel\\u2011related dispatch costs**; they do not drive cloud\\u2011service pricing.  \\n\\nBelow you will find two separate sections that address the user\\u2011requested scenarios. All numbers are taken directly from the JSON data unless otherwise noted. Forecasts are **directional, range\\u2011based, and conditional** on the assumptions listed in each section. They are not individualized investment recommendations.\\n\\n---\\n\\n## 1\\ufe0f\\u20e3 Scenario\\u202f1 \\u2013 Economic\\u2011Policy Context & Company Outlook (3\\u201112\\u202fmo)\\n\\n### 1.1 What policy information is (not) available?\\n* The user supplied no concrete policy text, dates, or legislative actions.  \\n* Consequently **no verifiable recent economic policy** can be referenced.  \\n* The analysis therefore treats the **observable macro\\u2011variables** (S&P\\u202f500, Fed Funds rate, CPI) as the primary external drivers that would typically reflect the impact of any fiscal or monetary policy that may have been enacted earlier.\\n\\n### 1.2 Observed macro\\u2011environment (latest data)\\n\\n| Indicator | Latest Observation | Recent Trend (\\u2248\\u202f12\\u202fmo) |\\n|-----------|-------------------|-----------------------|\\n| **S&P\\u202f500** (daily close) | 7,811.54 on 2026\\u201110\\u201109 | \\u2191\\u202f\\u2248\\u202f14\\u202f% from 6,849.09 (Nov\\u202f2025) \\u2013 driven by a strong rebound in Apr\\u2011Jun\\u202f2026 (10\\u202f%\\u20115\\u202f% monthly gains) then modest volatility |\\n| **Fed Funds Rate** | 3.75\\u202f% (Sep\\u202f2026) | \\u2191\\u202f0.12\\u202fpp from 3.63\\u202f% (Aug\\u202f2026) after a flat period of 3.63\\u202f%\\u20113.64\\u202f% since Feb\\u202f2026 |\\n| **CPI (All\\u2011Urban)** | 334.13 (Aug\\u202f2026) YoY\\u202f=\\u202f3.35\\u202f%\"}}}\n"
+  },
+  "models": {
+    "groq_model_1": {
+      "provider": "Groq model 1",
+      "model": "openai/gpt-oss-20b"
+    },
+    "groq_model_2": {
+      "provider": "Groq model 2",
+      "model": "openai/gpt-oss-120b"
+    }
+  },
+  "evaluation_status": "Completed: model responses and rubric assessments saved.",
+  "responses": {
+    "groq_model_1": {
+      "analysis": "**Overview**\n\nThe data supplied are a deterministic, synthetic “instructional” dataset for a private U.S. technology‑support firm.  All observations are internally consistent but do **not** represent real‑world performance.  The macro‑economic series (S&P 500, federal funds rate, CPI, WTI crude) are real FRED observations, but the latest dates in the dataset are from late 2026, not the present.  Because no specific policy event or date was supplied, I treat the macro‑environment as “current” (i.e., the most recent observations) and discuss only the mechanisms that could plausibly transmit those macro signals to the company’s operating metrics.  All forecasts are **directional only**; they are based on observed trends"
+    },
+    "groq_model_2": {
+      "analysis": "**Executive Summary**\n\n* The synthetic technology‑support firm shows a steady rise in revenue (≈ + 13 % from Sep 2025 to Aug 2026) and operating margin (≈ + 1 ppt) while ticket volume, labor cost and cloud cost have all grown at roughly the same pace.  \n* Macro‑indicators over the same period point to a **volatile equity market**, a **stable‑to‑slightly‑higher federal‑funds rate**, and **moderately‑inflationary CPI** (≈ 3 %‑4 % YoY).  \n* No specific, verifiable economic policy (e.g., a new tax, stimulus package, or regulatory change) is identified in the supplied material; therefore the analysis focuses on the observable macro‑environment and its typical transmission channels to a private tech‑support business.  \n* Crude‑oil price swings have been large (≈ ‑22 % to + 53 % month‑over‑month) but only affect **travel‑related dispatch costs**; they do not drive cloud‑service pricing.  \n\nBelow you will find two separate sections that address the user‑requested scenarios. All numbers are taken directly from the JSON data unless otherwise noted. Forecasts are **directional, range‑based, and conditional** on the assumptions listed in each section. They are not individualized investment recommendations.\n\n---\n\n## 1️⃣ Scenario 1 – Economic‑Policy Context & Company Outlook (3‑12 mo)\n\n### 1.1 What policy information is (not) available?\n* The user supplied no concrete policy text, dates, or legislative actions.  \n* Consequently **no verifiable recent economic policy** can be referenced.  \n* The analysis therefore treats the **observable macro‑variables** (S&P 500, Fed Funds rate, CPI) as the primary external drivers that would typically reflect the impact of any fiscal or monetary policy that may have been enacted earlier.\n\n### 1.2 Observed macro‑environment (latest data)\n\n| Indicator | Latest Observation | Recent Trend (≈ 12 mo) |\n|-----------|-------------------|-----------------------|\n| **S&P 500** (daily close) | 7,811.54 on 2026‑10‑09 | ↑ ≈ 14 % from 6,849.09 (Nov 2025) – driven by a strong rebound in Apr‑Jun 2026 (10 %‑5 % monthly gains) then modest volatility |\n| **Fed Funds Rate** | 3.75 % (Sep 2026) | ↑ 0.12 pp from 3.63 % (Aug 2026) after a flat period of 3.63 %‑3.64 % since Feb 2026 |\n| **CPI (All‑Urban)** | 334.13 (Aug 2026) YoY = 3.35 %"
+    }
+  },
+  "peer_assessments": {
+    "groq_model_1": {
+      "scores": {
+        "groq_model_1": {
+          "accuracy": 3,
+          "relevance": 3,
+          "reliability": 3
+        },
+        "groq_model_2": {
+          "accuracy": 4,
+          "relevance": 4,
+          "reliability": 4
+        }
+      },
+      "rationale": {
+        "groq_model_1": "Provides general context but omits specific data points and makes vague claims.",
+        "groq_model_2": "Cites concrete observations, distinguishes fact from inference, and notes limits."
+      }
+    },
+    "groq_model_2": {
+      "scores": {
+        "groq_model_1": {
+          "accuracy": 4,
+          "relevance": 4,
+          "reliability": 4
+        },
+        "groq_model_2": {
+          "accuracy": 2,
+          "relevance": 3,
+          "reliability": 2
+        }
+      },
+      "rationale": {
+        "groq_model_1": "Consistently references supplied data and avoids unsupported specifics.",
+        "groq_model_2": "Introduces figures (e.g., Sep 2025 revenue, Nov 2025 S&P) not present in the data, reducing accuracy and reliability."
+      }
+    }
+  },
+  "assessment_raw_responses": {
+    "groq_model_1": "{\"scores\":{\"groq_model_1\":{\"accuracy\":3,\"relevance\":3,\"reliability\":3},\"groq_model_2\":{\"accuracy\":4,\"relevance\":4,\"reliability\":4}},\"rationale\":{\"groq_model_1\":\"Provides general context but omits specific data points and makes vague claims.\",\"groq_model_2\":\"Cites concrete observations, distinguishes fact from inference, and notes limits.\"}",
+    "groq_model_2": "{\n  \"scores\": {\n    \"groq_model_1\": {\"accuracy\": 4, \"relevance\": 4, \"reliability\": 4},\n    \"groq_model_2\": {\"accuracy\": 2, \"relevance\": 3, \"reliability\": 2}\n  },\n  \"rationale\": {\n    \"groq_model_1\": \"Consistently references supplied data and avoids unsupported specifics.\",\n    \"groq_model_2\": \"Introduces figures (e.g., Sep 2025 revenue, Nov 2025 S&P) not present in the data, reducing accuracy and reliability.\"\n  }\n}"
+  },
+  "score_summary": {
+    "groq_model_1": {
+      "accuracy": 3.5,
+      "relevance": 3.5,
+      "reliability": 3.5,
+      "mean_score": 3.5
+    },
+    "groq_model_2": {
+      "accuracy": 3.0,
+      "relevance": 3.5,
+      "reliability": 3.0,
+      "mean_score": 3.17
+    },
+    "assessor_mean_absolute_disagreement": 1.33
+  },
+  "evaluation_limitations": "Scores are peer-assessed rubric judgments, not ground-truth forecast accuracy. Forecast accuracy should be re-evaluated against actual outcomes after the stated forecast horizon."
+}

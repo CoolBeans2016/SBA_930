@@ -1,0 +1,70 @@
+{
+  "company_context": "Hypothetical technology-support company.",
+  "data_sources": {
+    "GDP": "FRED GDPC1, real GDP, quarterly; growth derived as annualized qoq.",
+    "CPI": "FRED CPIAUCSL; inflation derived as 12-month percent change."
+  },
+  "data_vintage_limitation": "FRED historical observations may be revised. This test uses today's revised series, not point-in-time vintages.",
+  "backtest": [
+    {
+      "origin": "2025-10-01",
+      "actual_next_quarter": 2.49,
+      "actual_next_available_cpi_yoy": null,
+      "forecasts": {
+        "groq_model_1": {
+          "forecast_gdp_qoq_annualized_pct": 0.5,
+          "forecast_cpi_yoy_pct": 2.6,
+          "uncertainty": "Based on the recent sharp slowdown in quarterly GDP growth and the downward trend in CPI, the forecasts carry moderate uncertainty; actual values could deviate by \u00b10.3 percentage points for GDP and \u00b10.2 percentage points for CPI."
+        },
+        "groq_model_2": {
+          "forecast_gdp_qoq_annualized_pct": 1.2,
+          "forecast_cpi_yoy_pct": 3.1,
+          "uncertainty": "Based on the recent volatility in quarterly GDP (sharp swings from 0.14% to 4% in 2025) the GDP forecast carries moderate uncertainty. CPI shows a gradual upward trend from ~2.3% in early 2025 to just over 3% by September 2025, so the inflation forecast is relatively more certain but still subject to potential shocks."
+        }
+      }
+    },
+    {
+      "origin": "2026-01-01",
+      "actual_next_quarter": 2.22,
+      "actual_next_available_cpi_yoy": null,
+      "forecasts": {
+        "groq_model_1": {
+          "forecast_gdp_qoq_annualized_pct": 2.5,
+          "forecast_cpi_yoy_pct": 2.3,
+          "uncertainty": "Based on the recent quarterly GDP growth trend (2.49% in 2026\u2011Q1) and the downward trajectory of CPI year\u2011over\u2011year inflation (2.39% in 2026\u2011Jan), the forecasts are modestly optimistic. However, short\u2011term revisions, policy changes, or unexpected shocks could shift these figures by \u00b10.5 percentage points."
+        },
+        "groq_model_2": {
+          "forecast_gdp_qoq_annualized_pct": 2.1,
+          "forecast_cpi_yoy_pct": 2.3,
+          "uncertainty": "Based on recent volatility in quarterly GDP and a modest downward trend in CPI, the forecasts carry moderate uncertainty."
+        }
+      }
+    }
+  ],
+  "backtest_metrics": {
+    "groq_model_1": {
+      "backtest_gdp_mae_percentage_points": 1.14,
+      "backtest_periods": 2,
+      "cpi_forecast_backtest": "Not scored: a forward 12-month CPI target is unavailable for the selected recent origins."
+    },
+    "groq_model_2": {
+      "backtest_gdp_mae_percentage_points": 0.71,
+      "backtest_periods": 2,
+      "cpi_forecast_backtest": "Not scored: a forward 12-month CPI target is unavailable for the selected recent origins."
+    }
+  },
+  "current_as_of": "2026-04-01",
+  "current_forecasts": {
+    "groq_model_1": {
+      "forecast_gdp_qoq_annualized_pct": 1.8,
+      "forecast_cpi_yoy_pct": 3.5,
+      "uncertainty": "Based on the recent downward trend in quarterly GDP growth and the recent uptick in CPI, the forecasts carry moderate uncertainty; actual values could deviate by \u00b10.5 percentage points for GDP and \u00b10.3 percentage points for CPI."
+    },
+    "groq_model_2": {
+      "forecast_gdp_qoq_annualized_pct": 2.2,
+      "forecast_cpi_yoy_pct": 3.8,
+      "uncertainty": "Based on recent volatility in quarterly GDP growth and a recent upward swing in CPI, the forecasts carry moderate uncertainty; actual outcomes could reasonably vary by \u00b10.5\u202fppt for GDP and \u00b10.3\u202fppt for CPI."
+    }
+  },
+  "interpretation": "Backtest GDP MAE is an observed score over a small sample, not proof of future performance. CPI forecasts are reported but not scored here."
+}

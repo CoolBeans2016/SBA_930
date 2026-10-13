@@ -1,0 +1,553 @@
+{
+  "company_context": "Hypothetical technology-support business; sample data is synthetic.",
+  "sample_data": [
+    {
+      "month": "2023-09-01",
+      "revenue_usd": 138102.89,
+      "support_tickets": 1726,
+      "labor_cost_usd": 77614.36,
+      "cloud_cost_usd": 11800,
+      "other_operating_cost_usd": 21500,
+      "operating_margin_pct": 19.69,
+      "sla_met_pct": 92.15,
+      "customer_churn_pct": 3.93,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2023-10-01",
+      "revenue_usd": 139600.0,
+      "support_tickets": 1739,
+      "labor_cost_usd": 78450.0,
+      "cloud_cost_usd": 12030,
+      "other_operating_cost_usd": 21780,
+      "operating_margin_pct": 19.58,
+      "sla_met_pct": 92.22,
+      "customer_churn_pct": 3.9,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2023-11-01",
+      "revenue_usd": 142302.89,
+      "support_tickets": 1774,
+      "labor_cost_usd": 79714.36,
+      "cloud_cost_usd": 12260,
+      "other_operating_cost_usd": 22060,
+      "operating_margin_pct": 19.87,
+      "sla_met_pct": 92.39,
+      "customer_churn_pct": 3.84,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2023-12-01",
+      "revenue_usd": 146050.0,
+      "support_tickets": 1830,
+      "labor_cost_usd": 81350.0,
+      "cloud_cost_usd": 12490,
+      "other_operating_cost_usd": 22340,
+      "operating_margin_pct": 20.45,
+      "sla_met_pct": 92.66,
+      "customer_churn_pct": 3.74,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2024-01-01",
+      "revenue_usd": 150400.0,
+      "support_tickets": 1896,
+      "labor_cost_usd": 83200.0,
+      "cloud_cost_usd": 12720,
+      "other_operating_cost_usd": 22620,
+      "operating_margin_pct": 21.18,
+      "sla_met_pct": 92.98,
+      "customer_churn_pct": 3.62,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2024-02-01",
+      "revenue_usd": 154750.0,
+      "support_tickets": 1962,
+      "labor_cost_usd": 85050.0,
+      "cloud_cost_usd": 12950,
+      "other_operating_cost_usd": 22900,
+      "operating_margin_pct": 21.87,
+      "sla_met_pct": 93.3,
+      "customer_churn_pct": 3.5,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2024-03-01",
+      "revenue_usd": 158497.11,
+      "support_tickets": 2018,
+      "labor_cost_usd": 86685.64,
+      "cloud_cost_usd": 13180,
+      "other_operating_cost_usd": 23180,
+      "operating_margin_pct": 22.37,
+      "sla_met_pct": 93.57,
+      "customer_churn_pct": 3.4,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2024-04-01",
+      "revenue_usd": 161200.0,
+      "support_tickets": 2053,
+      "labor_cost_usd": 87950.0,
+      "cloud_cost_usd": 13410,
+      "other_operating_cost_usd": 23460,
+      "operating_margin_pct": 22.57,
+      "sla_met_pct": 93.74,
+      "customer_churn_pct": 3.33,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2024-05-01",
+      "revenue_usd": 162697.11,
+      "support_tickets": 2066,
+      "labor_cost_usd": 88785.64,
+      "cloud_cost_usd": 13640,
+      "other_operating_cost_usd": 23740,
+      "operating_margin_pct": 22.45,
+      "sla_met_pct": 93.81,
+      "customer_churn_pct": 3.31,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2024-06-01",
+      "revenue_usd": 163150.0,
+      "support_tickets": 2058,
+      "labor_cost_usd": 89250.0,
+      "cloud_cost_usd": 13870,
+      "other_operating_cost_usd": 24020,
+      "operating_margin_pct": 22.07,
+      "sla_met_pct": 93.78,
+      "customer_churn_pct": 3.32,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2024-07-01",
+      "revenue_usd": 163000.0,
+      "support_tickets": 2040,
+      "labor_cost_usd": 89500.0,
+      "cloud_cost_usd": 14100,
+      "other_operating_cost_usd": 24300,
+      "operating_margin_pct": 21.53,
+      "sla_met_pct": 93.7,
+      "customer_churn_pct": 3.35,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2024-08-01",
+      "revenue_usd": 162850.0,
+      "support_tickets": 2022,
+      "labor_cost_usd": 89750.0,
+      "cloud_cost_usd": 14330,
+      "other_operating_cost_usd": 24580,
+      "operating_margin_pct": 20.99,
+      "sla_met_pct": 93.62,
+      "customer_churn_pct": 3.38,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2024-09-01",
+      "revenue_usd": 163302.89,
+      "support_tickets": 2014,
+      "labor_cost_usd": 90214.36,
+      "cloud_cost_usd": 14560,
+      "other_operating_cost_usd": 24860,
+      "operating_margin_pct": 20.62,
+      "sla_met_pct": 93.59,
+      "customer_churn_pct": 3.39,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2024-10-01",
+      "revenue_usd": 164800.0,
+      "support_tickets": 2027,
+      "labor_cost_usd": 91050.0,
+      "cloud_cost_usd": 14790,
+      "other_operating_cost_usd": 25140,
+      "operating_margin_pct": 20.52,
+      "sla_met_pct": 93.66,
+      "customer_churn_pct": 3.36,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2024-11-01",
+      "revenue_usd": 167502.89,
+      "support_tickets": 2062,
+      "labor_cost_usd": 92314.36,
+      "cloud_cost_usd": 15020,
+      "other_operating_cost_usd": 25420,
+      "operating_margin_pct": 20.75,
+      "sla_met_pct": 93.83,
+      "customer_churn_pct": 3.3,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2024-12-01",
+      "revenue_usd": 171250.0,
+      "support_tickets": 2118,
+      "labor_cost_usd": 93950.0,
+      "cloud_cost_usd": 15250,
+      "other_operating_cost_usd": 25700,
+      "operating_margin_pct": 21.23,
+      "sla_met_pct": 94.1,
+      "customer_churn_pct": 3.2,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2025-01-01",
+      "revenue_usd": 175600.0,
+      "support_tickets": 2184,
+      "labor_cost_usd": 95800.0,
+      "cloud_cost_usd": 15480,
+      "other_operating_cost_usd": 25980,
+      "operating_margin_pct": 21.83,
+      "sla_met_pct": 94.42,
+      "customer_churn_pct": 3.08,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2025-02-01",
+      "revenue_usd": 179950.0,
+      "support_tickets": 2250,
+      "labor_cost_usd": 97650.0,
+      "cloud_cost_usd": 15710,
+      "other_operating_cost_usd": 26260,
+      "operating_margin_pct": 22.41,
+      "sla_met_pct": 94.74,
+      "customer_churn_pct": 2.96,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2025-03-01",
+      "revenue_usd": 183697.11,
+      "support_tickets": 2306,
+      "labor_cost_usd": 99285.64,
+      "cloud_cost_usd": 15940,
+      "other_operating_cost_usd": 26540,
+      "operating_margin_pct": 22.83,
+      "sla_met_pct": 95.01,
+      "customer_churn_pct": 2.86,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2025-04-01",
+      "revenue_usd": 186400.0,
+      "support_tickets": 2341,
+      "labor_cost_usd": 100550.0,
+      "cloud_cost_usd": 16170,
+      "other_operating_cost_usd": 26820,
+      "operating_margin_pct": 22.99,
+      "sla_met_pct": 95.18,
+      "customer_churn_pct": 2.79,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2025-05-01",
+      "revenue_usd": 187897.11,
+      "support_tickets": 2354,
+      "labor_cost_usd": 101385.64,
+      "cloud_cost_usd": 16400,
+      "other_operating_cost_usd": 27100,
+      "operating_margin_pct": 22.89,
+      "sla_met_pct": 95.25,
+      "customer_churn_pct": 2.77,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2025-06-01",
+      "revenue_usd": 188350.0,
+      "support_tickets": 2346,
+      "labor_cost_usd": 101850.0,
+      "cloud_cost_usd": 16630,
+      "other_operating_cost_usd": 27380,
+      "operating_margin_pct": 22.56,
+      "sla_met_pct": 95.22,
+      "customer_churn_pct": 2.78,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2025-07-01",
+      "revenue_usd": 188200.0,
+      "support_tickets": 2328,
+      "labor_cost_usd": 102100.0,
+      "cloud_cost_usd": 16860,
+      "other_operating_cost_usd": 27660,
+      "operating_margin_pct": 22.09,
+      "sla_met_pct": 95.14,
+      "customer_churn_pct": 2.81,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2025-08-01",
+      "revenue_usd": 188050.0,
+      "support_tickets": 2310,
+      "labor_cost_usd": 102350.0,
+      "cloud_cost_usd": 17090,
+      "other_operating_cost_usd": 27940,
+      "operating_margin_pct": 21.63,
+      "sla_met_pct": 95.06,
+      "customer_churn_pct": 2.84,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2025-09-01",
+      "revenue_usd": 188502.89,
+      "support_tickets": 2302,
+      "labor_cost_usd": 102814.36,
+      "cloud_cost_usd": 17320,
+      "other_operating_cost_usd": 28220,
+      "operating_margin_pct": 21.3,
+      "sla_met_pct": 95.03,
+      "customer_churn_pct": 2.85,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2025-10-01",
+      "revenue_usd": 190000.0,
+      "support_tickets": 2315,
+      "labor_cost_usd": 103650.0,
+      "cloud_cost_usd": 17550,
+      "other_operating_cost_usd": 28500,
+      "operating_margin_pct": 21.21,
+      "sla_met_pct": 95.1,
+      "customer_churn_pct": 2.82,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2025-11-01",
+      "revenue_usd": 192702.89,
+      "support_tickets": 2350,
+      "labor_cost_usd": 104914.36,
+      "cloud_cost_usd": 17780,
+      "other_operating_cost_usd": 28780,
+      "operating_margin_pct": 21.39,
+      "sla_met_pct": 95.27,
+      "customer_churn_pct": 2.76,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2025-12-01",
+      "revenue_usd": 196450.0,
+      "support_tickets": 2406,
+      "labor_cost_usd": 106550.0,
+      "cloud_cost_usd": 18010,
+      "other_operating_cost_usd": 29060,
+      "operating_margin_pct": 21.8,
+      "sla_met_pct": 95.54,
+      "customer_churn_pct": 2.66,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2026-01-01",
+      "revenue_usd": 200800.0,
+      "support_tickets": 2472,
+      "labor_cost_usd": 108400.0,
+      "cloud_cost_usd": 18240,
+      "other_operating_cost_usd": 29340,
+      "operating_margin_pct": 22.32,
+      "sla_met_pct": 95.86,
+      "customer_churn_pct": 2.54,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2026-02-01",
+      "revenue_usd": 205150.0,
+      "support_tickets": 2538,
+      "labor_cost_usd": 110250.0,
+      "cloud_cost_usd": 18470,
+      "other_operating_cost_usd": 29620,
+      "operating_margin_pct": 22.82,
+      "sla_met_pct": 96.18,
+      "customer_churn_pct": 2.42,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2026-03-01",
+      "revenue_usd": 208897.11,
+      "support_tickets": 2594,
+      "labor_cost_usd": 111885.64,
+      "cloud_cost_usd": 18700,
+      "other_operating_cost_usd": 29900,
+      "operating_margin_pct": 23.17,
+      "sla_met_pct": 96.45,
+      "customer_churn_pct": 2.32,
+      "overdue_invoice_share_pct": 8.5
+    },
+    {
+      "month": "2026-04-01",
+      "revenue_usd": 211600.0,
+      "support_tickets": 2629,
+      "labor_cost_usd": 113150.0,
+      "cloud_cost_usd": 18930,
+      "other_operating_cost_usd": 30180,
+      "operating_margin_pct": 23.32,
+      "sla_met_pct": 96.62,
+      "customer_churn_pct": 2.25,
+      "overdue_invoice_share_pct": 9.2
+    },
+    {
+      "month": "2026-05-01",
+      "revenue_usd": 213097.11,
+      "support_tickets": 2642,
+      "labor_cost_usd": 113985.64,
+      "cloud_cost_usd": 19160,
+      "other_operating_cost_usd": 30460,
+      "operating_margin_pct": 23.22,
+      "sla_met_pct": 96.69,
+      "customer_churn_pct": 2.23,
+      "overdue_invoice_share_pct": 9.9
+    },
+    {
+      "month": "2026-06-01",
+      "revenue_usd": 213550.0,
+      "support_tickets": 2634,
+      "labor_cost_usd": 114450.0,
+      "cloud_cost_usd": 19390,
+      "other_operating_cost_usd": 30740,
+      "operating_margin_pct": 22.93,
+      "sla_met_pct": 96.66,
+      "customer_churn_pct": 2.24,
+      "overdue_invoice_share_pct": 10.6
+    },
+    {
+      "month": "2026-07-01",
+      "revenue_usd": 213400.0,
+      "support_tickets": 2616,
+      "labor_cost_usd": 114700.0,
+      "cloud_cost_usd": 19620,
+      "other_operating_cost_usd": 31020,
+      "operating_margin_pct": 22.52,
+      "sla_met_pct": 96.58,
+      "customer_churn_pct": 2.27,
+      "overdue_invoice_share_pct": 11.3
+    },
+    {
+      "month": "2026-08-01",
+      "revenue_usd": 213250.0,
+      "support_tickets": 2598,
+      "labor_cost_usd": 114950.0,
+      "cloud_cost_usd": 19850,
+      "other_operating_cost_usd": 31300,
+      "operating_margin_pct": 22.11,
+      "sla_met_pct": 96.5,
+      "customer_churn_pct": 2.3,
+      "overdue_invoice_share_pct": 8.5
+    }
+  ],
+  "cash_assumption_usd": 250000.0,
+  "models": {
+    "groq_model_1": {
+      "model": "openai/gpt-oss-20b",
+      "analysis": {
+        "risks": [
+          {
+            "category": "Credit",
+            "evidence": "Overdue invoice share fluctuates between 8.5% and 11.3% of revenue, indicating a non\u2011negligible portion of receivables is past due.",
+            "impact": "High",
+            "likelihood_1_to_5": 4,
+            "mitigation": "Implement stricter credit terms, enforce early payment discounts, and conduct regular credit reviews of key customers."
+          },
+          {
+            "category": "Liquidity",
+            "evidence": "Cash on hand is USD 250,000 while monthly labor plus cloud costs total USD 134,800, giving a short runway.",
+            "impact": "High",
+            "likelihood_1_to_5": 5,
+            "mitigation": "Accelerate collections, negotiate extended payment terms with suppliers, and explore short\u2011term financing options to extend runway."
+          },
+          {
+            "category": "Customer Concentration",
+            "evidence": "No data on number of customers or revenue split; absence of this information is a monitoring gap.",
+            "impact": "Moderate",
+            "likelihood_1_to_5": 3,
+            "mitigation": "Track customer revenue concentration quarterly and set thresholds for diversification."
+          },
+          {
+            "category": "Staffing",
+            "evidence": "Labor cost has increased steadily from USD 102,814 in September 2025 to USD 114,950 in August 2026, suggesting ongoing hiring or salary increases.",
+            "impact": "Moderate",
+            "likelihood_1_to_5": 3,
+            "mitigation": "Align staffing plans with projected revenue growth, implement performance\u2011based hiring, and monitor headcount versus productivity."
+          },
+          {
+            "category": "Cyber/Service Continuity",
+            "evidence": "No incidents reported, but SLA met remains at 96.5% and support tickets are stable; lack of detailed incident data is a monitoring gap.",
+            "impact": "Low",
+            "likelihood_1_to_5": 2,
+            "mitigation": "Maintain robust backup, disaster recovery, and incident response plans; conduct regular penetration testing and employee training."
+          }
+        ],
+        "cash_runway_months_estimate": 1.86,
+        "key_monitoring_gaps": [
+          "Customer revenue concentration metrics",
+          "Detailed credit risk exposure per customer",
+          "Historical incident and cyber\u2011security event data"
+        ]
+      }
+    },
+    "groq_model_2": {
+      "model": "openai/gpt-oss-120b",
+      "analysis": {
+        "risks": [
+          {
+            "category": "Market",
+            "evidence": "Revenue has plateaued around $213k/month for the last 6 months after modest growth from $188k in Sep\u20112025, indicating limited top\u2011line expansion.",
+            "impact": "3",
+            "likelihood_1_to_5": 3,
+            "mitigation": "Develop new service tiers or geographic markets, and track pipeline metrics to diversify revenue sources."
+          },
+          {
+            "category": "Credit",
+            "evidence": "Overdue invoice share fluctuates between 8.5% and 11.3% of billed amounts, with recent dip to 8.5% but still above 5% threshold.",
+            "impact": "3",
+            "likelihood_1_to_5": 3,
+            "mitigation": "Implement stricter credit checks, offer early\u2011payment discounts, and automate reminders to reduce days sales outstanding."
+          },
+          {
+            "category": "Liquidity",
+            "evidence": "Cash on hand $250,000 versus monthly labor + cloud burn $134,800 yields an estimated runway of ~1.9 months.",
+            "impact": "4",
+            "likelihood_1_to_5": 4,
+            "mitigation": "Secure a short\u2011term credit facility or bridge loan, accelerate collections, and trim discretionary operating costs."
+          },
+          {
+            "category": "Staffing",
+            "evidence": "Labor cost has risen from $102,814 in Sep\u20112025 to $114,950 in Aug\u20112026 (+11.8%) while headcount is implied to be stable, suggesting wage pressure or overtime.",
+            "impact": "3",
+            "likelihood_1_to_5": 3,
+            "mitigation": "Review staffing efficiency, cross\u2011train employees, and consider part\u2011time or contract support to control payroll growth."
+          },
+          {
+            "category": "Cyber / Service Continuity",
+            "evidence": "Support tickets increased from 2,302 to 2,598 over 12 months (+12.9%); SLA met remains high at ~96.5% but any degradation could impact contracts.",
+            "impact": "2",
+            "likelihood_1_to_5": 2,
+            "mitigation": "Invest in ticket\u2011triage automation, conduct quarterly penetration tests, and maintain redundant cloud infrastructure."
+          },
+          {
+            "category": "Customer Concentration",
+            "evidence": "No data provided on revenue split by client; inability to assess reliance on a few large accounts.",
+            "impact": "3",
+            "likelihood_1_to_5": 3,
+            "mitigation": "Collect and monitor client\u2011level revenue data, set concentration limits (e.g., <20% per client), and pursue a broader customer base."
+          }
+        ],
+        "cash_runway_months_estimate": 1.85,
+        "key_monitoring_gaps": [
+          "Detailed customer\u2011level revenue concentration",
+          "Debt or financing obligations",
+          "Capital expenditure requirements",
+          "Seasonality or contract renewal timing"
+        ]
+      }
+    }
+  },
+  "analyst_control_recommendations": [
+    "Maintain a rolling 13-week cash forecast and minimum liquidity trigger.",
+    "Set customer and receivables concentration limits; review aging weekly.",
+    "Use MFA, least privilege, tested offline backups, and incident-response exercises.",
+    "Track ticket backlog, SLA breaches, staffing coverage, churn, and cloud spend.",
+    "Stress-test wage inflation, client payment delays, and a major customer loss.",
+    "Require human review; LLM output is a hypothesis list, not a control or credit decision."
+  ],
+  "limitations": "Synthetic data omits debt, actual cash flows, receivables aging, client concentration, insurance, and security incident history. Model outputs must be checked against company records."
+}
